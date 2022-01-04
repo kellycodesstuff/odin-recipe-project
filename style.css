@@ -1,8 +1,10 @@
-* {
-    border: 0px solid red;
-    margin: 0px;
+/* -------- Page Level --------*/
 
-}
+html,body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+    }
 
 h1,
 h2 {
@@ -10,7 +12,8 @@ h2 {
     font-size: 60px;
     font-weight: bold;
     color: #D08683;
-    font-family: Tahoma, sans-serif
+    font-family: Tahoma, sans-serif;
+    margin-block-end: 0em;
 }
 
 h3 {
@@ -36,6 +39,7 @@ a {
     font-size: 16px;
     color: #393939;
 }
+
 main {
     margin-left: 40px;
     margin-right: 40px;
@@ -43,12 +47,6 @@ main {
 
 ul {
     list-style: none;
-}
-
-footer {
-    text-align: center;
-    background: #fa8072;
-    padding: 100px 0px 50px 0px;
 }
 
 nav,
@@ -63,14 +61,11 @@ figure {
     margin: 0 auto;
 }
 
-header {
-    margin: 0px;
-    background: #025E6B;
-}
+/* -------- Main Page Header --------*/
 
-.nav-button {
-    font-size: 60px;
-    font-weight: bold;
+header {
+   /* margin: 0px auto;*/
+    background: #025E6B;
 }
 
 .pic {
@@ -96,4 +91,28 @@ header {
     font-size: 40px;
     margin-top 0px;
     padding-bottom: 60px;
+}
+
+/* -------- Main Page Navigation --------*/
+
+.nav {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 2.2em;
+}
+
+.nav:hover {
+    color: #fa8072;
+}
+
+.nav:active {
+    color: #fa8072;
+}
+
+/* -------- Footer --------*/
+
+footer {
+    text-align: center;
+    background: #fa8072;
+    padding: 100px 0px 50px 0px;
 }
